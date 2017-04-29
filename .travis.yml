@@ -4,4 +4,7 @@ jdk:
   - oraclejdk7
   - openjdk6
 env:
-USE_NETWORK=false
+  global:
+    - TIMEOUT=1000
+  matrix:
+    - USE_NETWORK=false
