@@ -23,4 +23,8 @@ Actually, I'm now having no Windows machine on my hand, so, if it runs into any 
 MacOS application is not available for the moment. But the jar file is prepared. <a href="https://drive.google.com/open?id=0B4RxDdhCBj5mU3g3dXlJcUNsMGc">Click here to download</a> 
 
 # Linux
-For linux users, I'm sorry that it's not available now for linux, as I have just ran into some little problem, the jar file is running with error on linux so I may need more time to fix it.
+For linux users, you can use the jar file <a href="https://drive.google.com/open?id=0B4RxDdhCBj5mU3g3dXlJcUNsMGc">downloaded here</a>, if you can open it, please follow me below.
+# Linux troubleshoot
+This is not a problem on the application own but your JRE, I can sure that you are using the OpenJDK, so first run 
+sudo apt install openjfx  
+Then open the jar file again, you can also use Oracle's JRE instead of openJDK.
